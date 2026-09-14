@@ -20,7 +20,7 @@ const products = [
 ]
 
 function Logo() {
-  return <div className="logo"><strong>My Cofee</strong><small>Wake up to something special.</small></div>
+  return <div className="logo"><span className="logo-mark" aria-hidden="true"><i /></span><span className="logo-copy"><strong>My Cofee</strong><small>Wake up to something special.</small></span></div>
 }
 
 function navigate(path) {
